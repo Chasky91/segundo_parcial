@@ -1,4 +1,4 @@
 #!/bin/bash
 pass="root"
 
-mysql -h mysqlContenedor -u root -p$pass -D clinica < ./paciente.sql
+mysql -h miSQlCon22 -u root -p$pass -D clinica < ./paciente.sql
